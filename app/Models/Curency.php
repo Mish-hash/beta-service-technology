@@ -9,10 +9,12 @@ class Curency extends Model
 {
     use HasFactory;
 
-    const CREATED_AT = 'date';
+    //const CREATED_AT = 'date';
     //const UPDATED_AT = 'updated_at';
 
     protected $table = 'currency';
+
+    public $timestamps = false;
 
     protected $fillable = [
         'valuteID',
@@ -20,5 +22,6 @@ class Curency extends Model
         'сharCode',
         'name',
         'value',
+        'date',
     ];
 }

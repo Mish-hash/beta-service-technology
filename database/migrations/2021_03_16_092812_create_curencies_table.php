@@ -21,11 +21,7 @@ class CreateCurenciesTable extends Migration
             $table->string('сharCode', 5);
             $table->string('name');
             $table->unsignedDecimal('value', 10, 4);
-
             $table->dateTime('date');
-            $table->dateTime('updated_at');
-
-            //$table->timestamps();
         });
     }
 
@@ -36,6 +32,6 @@ class CreateCurenciesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('curencies');
+        Schema::dropIfExists('currency');
     }
 }

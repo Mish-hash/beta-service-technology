@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "5fdb6d7f5a0cbb08fd8ad7bedafeed9f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4805,6 +4805,51 @@
                 }
             ],
             "time": "2020-11-12T00:07:28+00:00"
+        },
+        {
+            "name": "vyuldashev/xml-to-array",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vyuldashev/xml-to-array.git",
+                "reference": "ae1713b167093716b8e8d56bfb318befac4a8c4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vyuldashev/xml-to-array/zipball/ae1713b167093716b8e8d56bfb318befac4a8c4b",
+                "reference": "ae1713b167093716b8e8d56bfb318befac4a8c4b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "larapack/dd": "^1.1",
+                "phpunit/phpunit": "^6.4",
+                "spatie/array-to-xml": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vyuldashev\\XmlToArray\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladimir Yuldashev",
+                    "email": "misterio92@gmail.com"
+                }
+            ],
+            "description": "Convert xml to an array",
+            "support": {
+                "issues": "https://github.com/vyuldashev/xml-to-array/issues",
+                "source": "https://github.com/vyuldashev/xml-to-array/tree/master"
+            },
+            "time": "2018-04-22T15:20:09+00:00"
         },
         {
             "name": "webmozart/assert",
