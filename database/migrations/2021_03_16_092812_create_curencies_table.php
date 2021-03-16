@@ -21,7 +21,7 @@ class CreateCurenciesTable extends Migration
             $table->string('сharCode', 5);
             $table->string('name');
             $table->unsignedDecimal('value', 10, 4);
-            $table->dateTime('date');
+            $table->date('date');
         });
     }
 

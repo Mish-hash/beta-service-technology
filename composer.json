@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
+        "flugger/laravel-responder": "^3.1",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
@@ -17,6 +18,7 @@
         "vyuldashev/xml-to-array": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.5",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",
