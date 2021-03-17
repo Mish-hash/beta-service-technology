@@ -3,14 +3,11 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Api\CurencyGetRequest;
 use App\Models\Curency;
 use Illuminate\Http\Request;
 use Flugg\Responder\Responder;
-use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Carbon;
-//use Validator;
 
 class CurencyController extends Controller
 {
@@ -24,7 +21,7 @@ class CurencyController extends Controller
         $rules = [
             'valuteID' => 'required|exists:currency,valuteID',
             'from' => 'required|date',
-            'to' => 'required|date|after:from',
+            'to' => 'required|date|after_or_equal:from',
         ];
 
         $validateInput = Validator::make($request->all(), $rules);

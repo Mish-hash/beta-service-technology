@@ -30,7 +30,7 @@ class CurencySeeder extends Seeder
                 $dataInsert[] = [
                     'valuteID' => $valute['_attributes']['ID'],
                     'numCode' => $valute['NumCode'],
-                    'сharCode' => $valute['CharCode'],
+                    'charCode' => $valute['CharCode'],
                     'name' => $valute['Name'],
                     'value' => Str::replaceFirst(',', '.', $valute['Value']),
                     'date' => $date,

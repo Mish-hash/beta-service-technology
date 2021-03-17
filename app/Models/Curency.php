@@ -19,7 +19,7 @@ class Curency extends Model
     protected $fillable = [
         'valuteID',
         'numCode',
-        'сharCode',
+        'charCode',
         'name',
         'value',
         'date',
