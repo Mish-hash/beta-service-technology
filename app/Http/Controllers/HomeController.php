@@ -54,7 +54,7 @@ class HomeController extends Controller
                 return view('home', compact('reqDate', 'curenciesCharCode', 'curencies'));
             } else {
                 return back()
-                    ->withErrors(['msg' => 'Error get curencies']);
+                    ->withErrors(['msg' => 'No get curencies']);
             }
         }
 
